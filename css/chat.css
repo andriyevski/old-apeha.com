@@ -1,0 +1,40 @@
+.chat{
+    width: 100%;
+    height: 31px;
+    background-image: url("../img/chat/chat_bg.png");
+}
+.pre{
+    float: left;
+    margin:6px 0 0 5px;
+    padding: 0 0 0 0;
+}
+.klan{
+    background-image: url("../img/chat/chat_bsclanold.png");
+    background-repeat: no-repeat;
+    cursor: hand;
+    width: 21px;
+    height: 21px;
+    float: left;
+    margin:6px 0 0 5px;
+    padding: 0 0 0 0;
+}
+.inkviz{
+    background-image: url("../img/chat/chat_meonlyold.png");
+    background-repeat: no-repeat;
+    cursor: hand;
+    width: 21px;
+    height: 21px;
+    float: left;
+    margin:6px 0 0 5px;
+    padding: 0 0 0 0;
+}
+.abilka{
+    background-image: url("../img/chat/char_abill.png");
+    background-repeat: no-repeat;
+    cursor: hand;
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin:4px 0 0 5px;
+    padding: 0 0 0 0;
+}

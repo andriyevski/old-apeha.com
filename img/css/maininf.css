@@ -1,0 +1,85 @@
+body,td,ol,ul,li,p {
+	FONT-SIZE: 10pt;
+	FONT-FAMILY: Verdana, Arial, Helvetica, Tahoma, sans-serif;
+}
+
+.text {
+	FONT-SIZE: 10pt;
+	COLOR: #000000;
+	FONT-WEIGHT: normal;
+	FONT-FAMILY: Verdana, Arial, Helvetica, Tahoma, sans-serif;
+}
+
+A:link,A:visited,A:active {
+	FONT-SIZE: 10pt;
+	FONT-WEIGHT: bold;
+	COLOR: black;
+	TEXT-DECORATION: none;
+}
+
+A:hover {
+	FONT-SIZE: 10pt;
+	COLOR: #000000;
+}
+
+.bloked {
+	font-weight: bold;
+	color: red;
+}
+
+select,textarea {
+	border: solid 1pt #000000;
+	font-family: MS Sans Serif;
+	font-size: 10px;
+	color: #191970;
+	MARGIN-BOTTOM: 2px;
+	MARGIN-TOP: 1px;
+}
+
+.input {
+	border: solid 1pt #000000;
+	font-family: MS Sans Serif;
+	font-size: 10px;
+	color: #191970;
+	MARGIN-BOTTOM: 2px;
+	MARGIN-TOP: 1px;
+}
+
+img,table {
+	border: 0
+}
+
+.hint {
+	border-bottom: solid #000000 1px;
+	border-top: solid #000000 1px;
+	border-left: solid #000000 1px;
+	border-right: solid #000000 1px;
+	padding-top: 2;
+	padding-bottom: 2;
+	padding-left: 3;
+	padding-right: 3;
+	font-family: Verdana;
+	background: #FFFFE1;
+}
+
+#hint1 {
+	position: absolute;
+	visibility: hidden
+}
+
+INPUT.auth {
+	BORDER-RIGHT: #D2A280 1px solid;
+	BORDER-TOP: #D2A280 1px solid;
+	MARGIN-TOP: 0px;
+	FONT-SIZE: 9px;
+	MARGIN-BOTTOM: 0px;
+	BORDER-LEFT: #D2A280 1px solid;
+	COLOR: #000000;
+	BORDER-BOTTOM: #DAB69D 0px solid;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	BACKGROUND-COLOR: #D2A280;
+}
+
+.it {
+	FONT-SIZE: 8pt;
+}

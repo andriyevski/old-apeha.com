@@ -1,0 +1,52 @@
+body,td,ol,ul,li,p {
+	FONT-SIZE: 11px;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	COLOR: #8A6246;
+}
+
+.title {
+	FONT-SIZE: 18px;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	COLOR: #7F3116;
+}
+
+A:link,A:visited {
+	FONT-SIZE: 8pt;
+	FONT-WEIGHT: bold;
+	COLOR: #8A6246;
+	TEXT-DECORATION: none;
+}
+
+A:active {
+	color: #CCB268;
+}
+
+A:hover {
+	color: #EACC78;
+}
+
+input {
+	border: solid 1pt #B0B0B0;
+	font-family: MS Sans Serif;
+	font-size: 10px;
+	color: #191970;
+	MARGIN-BOTTOM: 2px;
+	MARGIN-TOP: 1px;
+}
+
+img,table {
+	border: 0
+}
+
+INPUT.auth {
+	BORDER-RIGHT: #D2A280 1px solid;
+	BORDER-TOP: #D2A280 1px solid;
+	MARGIN-TOP: 0px;
+	FONT-SIZE: 9px;
+	MARGIN-BOTTOM: 0px;
+	BORDER-LEFT: #D2A280 1px solid;
+	COLOR: #000000;
+	BORDER-BOTTOM: #DAB69D 0px solid;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	BACKGROUND-COLOR: #D2A280;
+}

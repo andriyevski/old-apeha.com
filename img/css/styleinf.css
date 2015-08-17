@@ -1,0 +1,35 @@
+BODY {
+	FONT-SIZE: 8pt;
+	FONT-FAMILY: verdana, arial, helvetica
+}
+
+TD {
+	FONT-SIZE: 8pt;
+	FONT-FAMILY: verdana, arial, helvetica;
+	COLOR: #444444
+}
+
+INPUT {
+	FONT-SIZE: 8pt;
+	FONT-FAMILY: verdana, arial, helvetica
+}
+
+A:link {
+	COLOR: #444444;
+	TEXT-DECORATION: none
+}
+
+A:active {
+	COLOR: #444444;
+	TEXT-DECORATION: none
+}
+
+A:visited {
+	COLOR: #444444;
+	TEXT-DECORATION: none
+}
+
+A:hover {
+	COLOR: #000000;
+	TEXT-DECORATION: underline
+}

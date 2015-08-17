@@ -1,0 +1,44 @@
+.menu{
+
+    height: 47px;
+    background-image: url("../img/game/menu/menu_bg.png");
+    min-width: 1280px;
+
+
+}
+.menu ul{
+    padding: 2px 0 0 100px; /* Отступы списка меню*/
+}
+.menu ul li{
+    display: inline; /* Отображать как строчный элемент */
+    font-size: 1.3em;
+
+}
+.menu ul li a{
+    /* */
+    text-decoration: none;/* Подсветка ссылок */
+    color: #333366; /* Цвет текста */
+    margin-right: 22px;/* Отступы меню */
+
+}
+.menu ul li a:hover{
+    color: grey;
+}
+a#Diller{
+    float: right;
+}
+a#digital_watch{
+    float: right;
+}
+a#exit{
+    float: right;
+    background: url("/img/menu/exit1.png");
+    width: 20px;
+    height: 20px;
+}
+a#exit A:hover{
+    float: right;
+    background: url("/img/menu/exit.png");
+    width: 20px;
+    height: 20px;
+}

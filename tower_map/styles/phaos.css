@@ -1,0 +1,94 @@
+textarea {
+	font-family: verdana, helvetica;
+	color: #FFFFFF;
+	background-color: #000000;
+	border-left: solid 1px #006600;
+	border-right: solid 1px #006600;
+	border-top: solid 1px #006600;
+	border-bottom: solid 1px #006600;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+input {
+	background: url(../images/input_bg.jpg);
+	font-family: verdana, helvetica;
+	color: #FFFFFF;
+	background-color: #000000;
+	border: solid 1px #003300;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+select {
+	font-family: verdana, helvetica;
+	color: #FFFFFF;
+	background-color: #000000;
+	border-left: solid 1px #006600;
+	border-right: solid 1px #006600;
+	border-top: solid 1px #006600;
+	border-bottom: solid 1px #006600;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+body {
+	font-family: verdana, helvetica;
+	color: #FFFFFF;
+	background-color: #000000;
+	font-size: 12px;
+	scrollbar-face-color: #004400;
+	scrollbar-shadow-color: #004400;
+	scrollbar-highlight-color: #000440;
+	scrollbar-3dlight-color: #004400;
+	scrollbar-darkshadow-color: #003300;
+	scrollbar-track-color: #000000;
+	scrollbar-arrow-color: #FFFFFF;
+}
+
+td {
+	font-family: verdana, helvetica;
+	color: #FFFFFF;
+	font-size: 12px;
+}
+
+button {
+	background-color: #000000;
+	color: #FFFFFF;
+	border-left: solid 1px #006600;
+	border-right: solid 1px #006600;
+	border-top: solid 1px #006600;
+	border-bottom: solid 1px #006600;
+}
+
+hr {
+	color: #006600;
+}
+
+a:link {
+	color: #FFFFFF;
+	font-weight: normal;
+	text-decoration: none;
+	font-size: 10pt;
+}
+
+a:visited {
+	color: #FFFFFF;
+	font-weight: normal;
+	text-decoration: none;
+	font-size: 10pt;
+}
+
+a:active {
+	color: #FFFFFF;
+	font-weight: normal;
+	text-decoration: none;
+	font-size: 10pt;
+}
+
+a:hover {
+	color: #006600;
+	font-weight: normal;
+	text-decoration: none;
+	font-size: 10pt;
+}

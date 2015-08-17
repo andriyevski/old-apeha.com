@@ -1,0 +1,10 @@
+var sm = new Array("adolf",20,20,  "am",18,23,  "angel",20,25,  "angl",88,28,  "aplause",31,25,  "arrow",20,20,  "baby",20,22,  
+"batman",20,27,  "beer",59,21, "boxing",30,30,  "bye",26,18,  "censored",48,18,  "cola",45,25,  "compkill",34,28,  "cool",27,20,  "coolman",18,18,  "crazy",28,28,  "devil",18,23,  "dinner",31,26,  "dollar",15,15,  "drink",60,40,  "droch",40,30,  
+"duel",100,34,  "evil",20,18,  "face1",18,18,  "face2",19,19,  "face3",33,25, 
+"face4",20,21,  "face5",18,28,  "fingal",18,18,  "friday",58,30,  "fuck",80,26,  "fuu",20,20,  "girl",18,18,  
+"goodnigth",33,33,  "gun1",48,22,  "gun2",48,22,  "gun_1",54,19,  "ha",34,26,  "happy",20,20,  "heart",19,19,  "hello",28,30,  "helloween",18,18,  
+"help",35,25,  "hummer",41,28,  "hummer2",30,26,  "ill",20,20,  "inlove",20,20,  
+"invalid",76,25,  "jack",55,18,  "jedy",50,26,  "kill",120,20,  "killed",38,24,  "king",25,27,  "kiss",44,18,  
+"kiss1",50,30,  "kiss2",47,27,  "kiss3",50,30,  "kiss4",50,30,  "kiss5",54,25,  
+"knut",54,20,  "lick",20,20, "lips",23,15, "lock",32,23, "lol",50,25, 
+"loo",24,26,  "luck",19,20,  "mac",17,18,  "man_hat",26,21,  "matrix",83,18, "med",65,31, "mediana",74,30, "merlin",96,61, "minet",18,18, "mol",30,30, "music",26,24, "newyear",21,23, "ninja",45,45, "nuclear",20,20, "nunchak",40,28, "ogo",26,24, "pare",47,18, "police",20,22, "police2",18,24, "prise",31,26, "punk",33,30, "question",20,20, "ravvin",24,29, "ravvin2",24,25, "rip",25,18, "rupor",41,22, "scare",20,21, "shut",49,23, "sleep",38,23, "song",35,20, "sperm",41,20, "strong",32,20, "student",25,22, "t2",18,18, "terminator",52,25, "throwout",65,50, "training",40,30, "trax4",80,30, "trio",64,18, "two",46,20, "user",60,23, "wow",20,21, "yo",30,30);

@@ -1,0 +1,175 @@
+BODY {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 12px;
+	COLOR: #333333;
+	MARGIN: 0px;
+	FONT-STYLE: normal;
+	FONT-FAMILY: Verdana, Tahoma, Arial, sans-serif
+}
+
+.tool_tip {
+	position: absolute;
+	visibility: hidden;
+	border: #000000 1px solid;
+	padding: 3px 3px 3px 3px;
+	background-color: #FCFCD3;
+}
+
+.number {
+	font-size: 11pt;
+	font-weight: bold;
+	color: #6F0000
+}
+
+.p {
+	font-weight: bold;
+	color: red;
+	background-color: #FAE0E0
+}
+
+.date {
+	font-family: Verdana, Arial, Helvetica, Tahoma, sans-serif;
+	font-size: 10pt;
+	text-decoration: none;
+	font-weight: normal;
+	color: #007000
+}
+
+.btn {
+	border: 1px double #9a9996;
+	font-size: 10px;
+	color: #dfdfdf;
+	cursor: pointer;
+	background-color: #504F4C;
+}
+
+.lteam {
+	FONT-SIZE: 10pt;
+	FONT-FAMILY: Verdana, Arial, Helvetica, Tahoma, sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	color: #B06A00;
+	cursor: pointer;
+}
+
+.rteam {
+	FONT-SIZE: 10pt;
+	FONT-FAMILY: Verdana, Arial, Helvetica, Tahoma, sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	color: #6666CC;
+	cursor: pointer;
+}
+
+.date2 {
+	font-family: Verdana, Arial, Helvetica, Tahoma, sans-serif;
+	font-size: 10pt;
+	text-decoration: none;
+	font-weight: normal;
+	color: #007000;
+	background-color: #00FFAA
+}
+
+.sysdate {
+	font-family: Verdana, Arial, Helvetica, Tahoma, sans-serif;
+	font-size: 10pt;
+	text-decoration: none;
+	font-weight: normal;
+	color: #B00000
+}
+
+.private {
+	font-weight: bold;
+	color: red;
+	background-color: #FAE0E0;
+}
+
+.small {
+	font-size: 10px;
+	font-weight: normal;
+	font-family: Verdana, Arial, Helvetica, Tahoma, sans-serif;
+}
+
+TD {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 12px;
+	MARGIN: 0px;
+	FONT-STYLE: normal;
+	FONT-FAMILY: Verdana, Tahoma, Arial, sans-serif
+}
+
+A.menu:link,A:active,A:visited {
+	FONT-WEIGHT: bold;
+	font-size: 12px;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	TEXT-DECORATION: none;
+	COLOR: #EFEFEF;
+}
+
+A.menu:hover {
+	COLOR: #ffffff;
+}
+
+td {
+	font-size: 10pt;
+	font-family: Verdana, Arial, Helvetica, Tahoma, sans-serif;
+}
+
+.menu {
+	margin: 5px 0px 10px;
+	TEXT-ALIGN: center;
+}
+
+.stable {
+	border-top: #A5A5A5 solid 1px;
+	border-left: #A5A5A5 solid 1px;
+	border-right: #EAEAEA solid 1px;
+	border-bottom: #EAEAEA solid 1px;
+}
+
+IMG {
+	BORDER-TOP-WIDTH: 0px;
+	BORDER-LEFT-WIDTH: 0px;
+	BORDER-BOTTOM-WIDTH: 0px;
+	BORDER-RIGHT-WIDTH: 0px
+}
+
+.ontitle {
+	FONT-WEIGHT: bold;
+	font-size: 12px;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	COLOR: #EFEFEF;
+	MARGIN: 0px 0px 7px;
+}
+
+.searchfild {
+	BORDER-RIGHT: #707070 1px solid;
+	BORDER-TOP: #707070 1px solid;
+	BORDER-LEFT: #707070 1px solid;
+	BORDER-BOTTOM: #707070 1px solid;
+	FONT-SIZE: 12px;
+	BACKGROUND: #DEDEDE;
+	COLOR: #31312E;
+	TEXT-ALIGN: center;
+	FONT-FAMILY: Verdana, Tahoma, Arial, sans-serif
+}
+
+.nickinfo {
+	FONT-WEIGHT: bold;
+	font-size: 12px;
+	FONT-FAMILY: Verdana, Tahoma, Arial, sans-serif PADDING-TOP :   1px;
+	TEXT-ALIGN: center;
+	COLOR: #F1BC00;
+}
+
+A.blink:link,A.blink:active,A.blink:visited {
+	FONT-WEIGHT: bold;
+	font-size: 12px;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	TEXT-DECORATION: none;
+	COLOR: #252252;
+}
+
+A.blink:hover {
+	COLOR: #000000;
+}

@@ -1,0 +1,64 @@
+<?
+$stat = mysql_fetch_array(mysql_query("SELECT * FROM `players` WHERE `user` = '".$_SESSION['user']."' AND `pass` = '".$_SESSION['pass']."' LIMIT 1"));?>
+<SCRIPT>
+function hideHelp()
+{
+	document.getElementById('help').style.display = 'none';
+		return false;
+}
+</SCRIPT>
+<STYLE>
+#help {
+	Z-INDEX: 66;
+	LEFT: 34px;
+	WIDTH: 95%;
+	POSITION: absolute;
+	TOP: 30px
+}
+
+TD.Form {
+	BORDER-RIGHT: black 1px solid;
+	BORDER-TOP: #666666 1px solid;
+	BORDER-LEFT: #666666 1px solid;
+	BORDER-BOTTOM: black 1px solid;
+	BACKGROUND-COLOR: #f4eade
+}
+</STYLE>
+
+</head>
+
+
+<DIV id=help style="DISPLAY: block;">
+<TABLE cellSpacing=0 cellPadding=0 width=603 align=center border=0>
+	<TBODY>
+		<TR>
+			<TD
+				style="PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px"
+				class=Form>
+			<FORM name=active action=index.php method=post>
+			<CENTER><b>Добро пожаловать в игру "Инстинкты воина"!</b></center>
+			<br>
+			<p>Знакомство с миром ИВ лучше всего начать с его карты(см. <a
+				href=faq.html target=_blank> "помощь новичкам")</a>, на которой
+			обозначены основные игровые объекты. Также на карте можно увидеть
+			других жителей этого мира.</p>
+			<p>Сейчас Вы находитесь в "Игровом зале № 1"- в месте проведения
+			поединков.Но бои проходят и в других залах.Например, бои с ботами
+			проходят в Тренировочном зале, для более старших персонажей будет
+			доступны еще другие залы. Для более подробной информации как начать
+			поединки см. <a href=faq.html target=_blank> "помощь новичкам")</a></p>
+
+			<p>Для перемещения по игровому миру среди улиц пользуйтесь
+			стрелочками справа от карты, а для перемешения по зданиям необходимо
+			кликать по самим зданиям на карте.</p>
+			<p><?
+ if ($stat[s_updates]!=0) echo("<b>В данный момент у вас есть возможность прибавить характеристики своего персонажа. Сделать это можно нажав на подсказку 'Распределить 'Умения'<b>.")
+?></p>
+			<CENTER><INPUT class=button onclick=hideHelp() type=button
+				value=Закрыть></CENTER>
+			</FORM>
+			</TD>
+		</TR>
+	</TBODY>
+</TABLE>
+</DIV>

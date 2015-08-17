@@ -1,0 +1,99 @@
+body,td,ol,ul,li,p {
+	FONT-SIZE: 11px;
+	FONT-FAMILY: Verdana, Tahoma;
+	/*COLOR: #8A6246;*/
+	color: #000000;
+	scrollbar-face-color: #A9A38D;
+	scrollbar-3dlight-color: #000000;
+	scrollbar-darkshadow-color: #ffffff;
+	scrollbar-arrow-color: #000000;
+	scrollbar-shadow-color: #000000;
+	scrollbar-track-color: #E1DECD;
+	scrollbar-highlight-color: #ffffff;
+}
+
+.title {
+	FONT-SIZE: 14px;
+	FONT-FAMILY: Verdana, Tahoma;
+	COLOR: #7F3116;
+}
+
+A:link,A:visited {
+	FONT-SIZE: 10px;
+	FONT-WEIGHT: bold;
+	COLOR: #2662ab;
+	TEXT-DECORATION: none;
+}
+
+A:active {
+	color: #CCB268;
+}
+
+A:hover {
+	color: #EACC78;
+}
+
+INPUT {
+	font-family: Tahoma, verdana;
+	font-size: 11px;
+	border: 1px solid #000000;
+}
+
+select {
+	font-family: Tahoma, verdana;
+	font-size: 11px;
+	border: 1px solid #000000;
+}
+
+option {
+	font-family: Tahoma, verdana;
+	font-size: 11px;
+	border: 1px solid #000000;
+}
+
+TEXTAREA {
+	font-family: Tahoma, verdana;
+	font-size: 11px;
+	border: 1px solid #000000;
+}
+
+img,table {
+	border: 0
+}
+
+INPUT.auth {
+	BORDER-RIGHT: #D2A280 1px solid;
+	BORDER-TOP: #D2A280 1px solid;
+	MARGIN-TOP: 0px;
+	FONT-SIZE: 9px;
+	MARGIN-BOTTOM: 0px;
+	BORDER-LEFT: #D2A280 1px solid;
+	COLOR: #000000;
+	BORDER-BOTTOM: #DAB69D 0px solid;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	BACKGROUND-COLOR: #D2A280;
+}
+
+table.tema {
+	border: 1px solid #000000;
+	background-color: #ebedec;
+}
+
+tr.tema_header {
+	background-color: #4a596c;
+	height: 20px;
+	color: white;
+}
+
+td.n1 {
+	color: white;
+	font-weight: bold;
+	padding-right: 3px;
+	padding-left: 3px;
+}
+
+a.admlink {
+	font-weight: none;
+	color: #999999;
+	font-size: 9px;
+}

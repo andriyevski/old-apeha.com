@@ -1,0 +1,155 @@
+<html>
+<head>
+<META HTTP-EQUIV='Content-Type'
+	CONTENT='text/html; charset=windows-1251'>
+<link href="../img/game/css/main.css" rel="stylesheet" type="text/css" />
+<link href="../img/game/css/style.css" rel="stylesheet" type="text/css" />
+<title>Ёпоха</title>
+<script src="../img/game/js/control.js"></script>
+<script>
+ function exit() {
+ 	var bConfirmed = window.confirm("¬ыйти из игры?")
+	if (bConfirmed == true) {
+  	parent.location.href="../index.php?action=logout"; 
+  }
+ }
+ 
+function buy_gold() {
+	window.open("../buyekr.html", "", "width=600,height=400,toolbar=no,location=no,directories=no,menubar=no,copyhistory=no,resizable=yes,status=no,scrollbars=yes");
+} 
+</script>
+</head>
+
+<body>
+<table border="0" cellspacing="0" cellpadding="0" class="tmain">
+	<tr>
+		<td colspan="3" class="topfon">
+		<table border="0" cellspacing="0" cellpadding="0" class="tmain">
+			<tr>
+				<td valign="top">
+				<table border="0" cellspacing="0" cellpadding="0" class="tmain">
+					<tr>
+						<!-- левое меню-->
+						<td align="right" valign="top" class="topfr" style="width: 50%;">
+						<table border="0" cellspacing="0" cellpadding="0" class="fonl">
+							<tr>
+								<td class="tm" style="text-align: center;"><a
+									href="../main.php?set=map" target="main"
+									onmouseover="chim('m1','1')" onmouseout="chim('m1','0')"><img
+									src="../img/game/menu/m1.gif" width="49" height="39" border="0"
+									alt="" /></a></td>
+								<td class="tm"
+									style="text-align: center; padding-left: 16px; padding-right: 17px;"><a
+									href="../main.php?set=pers" target="main"
+									onmouseover="chim('m2','3')" onmouseout="chim('m2','2')"><img
+									src="../img/game/menu/m2.gif" width="49" height="39" border="0"
+									alt="" /></a></td>
+								<td class="tm" style="text-align: center; padding-right: 7px"><a
+									href="/forum.php" target="_blank" onmouseover="chim('m5','9')"
+									onmouseout="chim('m5','8')"><img
+									src="../img/game/menu/m5.gif" width="49" height="39" border="0"
+									alt="" /></a></td>
+								<td class="tm" style="text-align: center;"><a
+									href="javascript:buy_gold();" onmouseover="chim('m8','15')"
+									onmouseout="chim('m8','14')"><img
+									src="../img/game/menu/m6.gif" width="49" height="39" border="0"
+									alt="" /></a></td>
+							</tr>
+							<tr>
+								<td style="text-align: center;"><a
+									href="../main.php?set=map" target="main"
+									onmouseover="chim('m1','1')" onmouseout="chim('m1','0')"><img
+									src="../img/game/menu/m1_1.gif" width="32" height="14"
+									border="0" alt="" id="m1" /></a></td>
+								<td
+									style="text-align: center; padding-left: 16px; padding-right: 19px;"
+									align="center"><a href="../main.php?set=pers"
+									target="main" onmouseover="chim('m2','3')"
+									onmouseout="chim('m2','2')"><img
+									src="../img/game/menu/m2_1.gif" width="51" height="14"
+									border="0" alt="" id="m2" /></a></td>
+								<td style="text-align: center; padding-right: 7px;"><a
+									href="/forum.php" target="_blank" onmouseover="chim('m5','9')"
+									onmouseout="chim('m5','8')"><img
+									src="../img/game/menu/m5_1.gif" width="47" height="14"
+									border="0" alt="" id="m5" /></a></td>
+								<td
+									style="text-align: center; padding-left: 7px; padding-right: 8px;"><a
+									href="javascript:buy_gold();" onmouseover="chim('m8','15')"
+									onmouseout="chim('m8','14')"><img
+									src="../img/game/menu/m8_1.gif" width="51" height="14"
+									border="0" alt="" id="m8" /></a></td>
+							</tr>
+						</table>
+						</td>
+						<td valign="bottom" class="gerb" style="text-align: center;"><img
+							src="/img/z.gif" width="284" height="1" border="0" alt="" /><br />
+						<img src="../img/game/frames/kentan.gif" width="65" height="14"
+							border="0" alt="" /></td>
+						<!-- правое меню-->
+						<td valign="top" class="topfr" style="width: 50%;">
+						<table border="0" cellspacing="0" cellpadding="0" class="fonr">
+							<tr>
+								<td class="tm" style="text-align: center;"><a
+									href="../battle.php?battle_type=1" target="main"
+									onmouseover="chim('m4','7')" onmouseout="chim('m4','6')"><img
+									src="../img/game/menu/m4.gif" width="49" height="39" border="0"
+									alt="" /></a></td>
+								<td class="tm"
+									style="text-align: center; padding-left: 6px; padding-right: 11px;"><a
+									href="../main.php?set=work" target="main"
+									onmouseover="chim('m6','11')" onmouseout="chim('m6','10')"><img
+									src="../img/game/menu/m6.gif" width="49" height="39" border="0"
+									alt="" /></a></td>
+								<td class="tm" style="text-align: center; padding-right: 12px;"><a
+									href="../faq.php" target="_blank" onmouseover="chim('m3','5')"
+									onmouseout="chim('m3','4')"><img
+									src="../img/game/menu/m3.gif" width="49" height="39" border="0"
+									alt="" /></a></td>
+								<td class="tm" style="text-align: center;"><a
+									href="javascript:exit();" onmouseover="chim('m7','13')"
+									onmouseout="chim('m7','12')"><img
+									src="../img/game/menu/m7.gif" width="49" height="39" border="0"
+									alt="" /></a></td>
+							</tr>
+							<tr>
+								<td style="text-align: center;"><a
+									href="../battle.php?battle_type=1" target="main"
+									onmouseover="chim('m4','7')" onmouseout="chim('m4','6')"><img
+									src="../img/game/menu/m4_1.gif" width="60" height="14"
+									border="0" alt="" id="m4" /></a></td>
+								<td
+									style="text-align: center; padding-left: 7px; padding-right: 11px;"><a
+									href="../main.php?set=work" target="main"
+									onmouseover="chim('m6','11')" onmouseout="chim('m6','10')"><img
+									src="../img/game/menu/m6_1.gif" width="55" height="14"
+									border="0" alt="" id="m6" /></a></td>
+								<td style="text-align: center; padding-right: 12px;"><a
+									href="../faq.php" target="_blank" onmouseover="chim('m3','5')"
+									onmouseout="chim('m3','4')"><img
+									src="../img/game/menu/m3_1.gif" width="59" height="14"
+									border="0" alt="" id="m3" /></a></td>
+								<td style="text-align: center;"><a
+									href="javascript:exit();" onmouseover="chim('m7','13')"
+									onmouseout="chim('m7','12')"><img
+									src="../img/game/menu/m7_1.gif" width="33" height="14"
+									border="0" alt="" id="m7" /></a></td>
+							</tr>
+						</table>
+						</td>
+					</tr>
+				</table>
+				</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+</table>
+<div style="position: absolute; top: 0px; left: 0px; z-index: 100;"><img
+	src="../img/game/frames/topfl2.gif" width="69" height="65" border="0"
+	alt="" /></div>
+<div style="position: absolute; top: 0px; right: 0px; z-index: 100;"><img
+	src="../img/game/frames/topfr2.gif" width="69" height="65" border="0"
+	alt="" /></div>
+</body>
+</html>

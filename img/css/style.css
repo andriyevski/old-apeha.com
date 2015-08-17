@@ -1,0 +1,100 @@
+/* CSS Document */
+.error {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 14px;
+	COLOR: #f03333
+}
+
+.otmes {
+	background-color: #A8FBC0;
+}
+
+.privatmes {
+	background-color: #FFD2A6;
+}
+
+.reg {
+	FONT-SIZE: 15px;
+	COLOR: #CCCCCC;
+	font-family: "Monotype Corsiva";
+}
+
+.reg1 {
+	font-family: "Monotype Corsiva";
+	font-size: 15px;
+	font-style: normal;
+	line-height: normal;
+	color: #FF0000;
+	text-decoration: blink;
+}
+
+.team1 {
+	FONT-SIZE: 11px;
+	COLOR: #24707c;
+	FONT-FAMILY: tahoma;
+	text-decoration: none;
+}
+
+.input {
+	background-color: #FFFFFF;
+	font-family: Tahoma;
+	font-weight: bold;
+	width: 100%;
+	font-size: 12px;
+	height: 20;
+	color: #000000;
+}
+
+.nick {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+	color: #000066;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-decoration: none;
+}
+
+.date {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 11px;
+	color: #3366CC;
+}
+
+.date2 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 11px;
+	color: #CC3300;
+}
+
+.msg {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 13px;
+}
+
+.private {
+	font-family: "Times New Roman", Times, serif;
+	color: #000066;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-decoration: none;
+}
+
+.menutop,a.menutop:visited,a.menutop:active {
+	font-weight: bold;
+	font-size: 11px;
+	text-decoration: none;
+	color: #3B3936;
+}
+
+.main_text {
+	font-weight: bold;
+	font-size: 11px;
+	text-decoration: none;
+	color: #f0f0f0;
+	cursor: hand;
+}

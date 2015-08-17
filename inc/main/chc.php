@@ -1,0 +1,30 @@
+<?php
+print"<SELECT NAME='chat_color' style='WIDTH: 111'>";
+print"<OPTION VALUE=black STYLE='background:color:Black'";
+if ($stat[color]=="black") echo" selected>"; else echo">"; print"Черный";
+print"<OPTION VALUE=navy STYLE='background:#EBEDEC;color:navy'";
+if ($stat[color]=="navy") echo" selected>"; else echo">"; print"Тёмносиний";
+print"<OPTION VALUE=blue STYLE='background:#EBEDEC;color:blue'";
+if ($stat[color]=="blue") echo" selected>"; else echo">"; print"Синий";
+print"<OPTION VALUE=0046D5 STYLE='background:#EBEDEC;color:0046D5'";
+if ($stat[color]=="0046D5") echo" selected>"; else echo">"; print"Голубой";
+print"<OPTION VALUE=teal STYLE='background:#EBEDEC;color:teal'";
+if ($stat[color]=="teal") echo" selected>"; else echo">"; print"Морской волны";
+print"<OPTION VALUE=purple STYLE='background:#EBEDEC;color:purple'";
+if ($stat[color]=="purple") echo" selected>"; else echo">"; print"Фиолетовый";
+print"<OPTION VALUE=fuchsia STYLE='background:#EBEDEC;color:fuchsia'";
+if ($stat[color]=="fuchsia") echo" selected>"; else echo">"; print"Розовый";
+print"<OPTION VALUE=gray STYLE='background:#EBEDEC;color:gray'";
+if ($stat[color]=="gray") echo" selected>"; else echo">"; print"Серый";
+print"<OPTION VALUE=green STYLE='background:#EBEDEC;color:green'";
+if ($stat[color]=="green") echo" selected>"; else echo">"; print"Зелёный";
+print"<OPTION VALUE=maroon STYLE='background:#EBEDEC;color:maroon'";
+if ($stat[color]=="maroon") echo" selected>"; else echo">"; print"Тёмнокрасный";
+print"<OPTION VALUE=orange STYLE='background:#EBEDEC;color:orange'";
+if ($stat[color]=="orange") echo" selected>"; echo">"; print"Оранжевый";
+print"<OPTION VALUE=сhocolate STYLE='background:#EBEDEC;color:сhocolate'";
+if ($stat[color]=="сhocolate") echo" selected>"; else echo">"; print"Шоколадный";
+print"<OPTION VALUE=darkkhaki STYLE='background:#EBEDEC;color:darkkhaki'";
+if ($stat[color]=="darkkhaki") echo" selected>"; else echo">"; print"Темный хаки";
+print"</SELECT>";
+?>

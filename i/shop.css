@@ -1,0 +1,11 @@
+A:link,A:visited,A:active {
+	FONT-SIZE: 8pt;
+	FONT-WEIGHT: bold;
+	COLOR: #263D5E;
+	TEXT-DECORATION: none;
+}
+
+A:hover {
+	FONT-SIZE: 8pt;
+	COLOR: #6288BE;
+}

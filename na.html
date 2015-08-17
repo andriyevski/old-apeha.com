@@ -1,0 +1,57 @@
+<?
+$stat = mysql_fetch_array(mysql_query("SELECT * FROM `players` WHERE `user` = '".$_SESSION['user']."' AND `pass` = '".$_SESSION['pass']."' LIMIT 1"));?>
+<SCRIPT>
+function hideHelp()
+{
+	document.getElementById('help').style.display = 'none';
+		return false;
+}
+</SCRIPT>
+<STYLE>
+#help {
+	Z-INDEX: 66;
+	LEFT: 34px;
+	WIDTH: 95%;
+	POSITION: absolute;
+	TOP: 30px
+}
+
+TD.Form {
+	BORDER-RIGHT: black 1px solid;
+	BORDER-TOP: #666666 1px solid;
+	BORDER-LEFT: #666666 1px solid;
+	BORDER-BOTTOM: black 1px solid;
+	BACKGROUND-COLOR: #f4eade
+}
+</STYLE>
+
+</head>
+
+
+<DIV id=help style="DISPLAY: block;">
+<TABLE cellSpacing=0 cellPadding=0 width=603 align=center border=0>
+	<TBODY>
+		<TR>
+			<TD
+				style="PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px"
+				class=Form>
+			<FORM name=active action=index.php method=post>
+
+			<center><b>Внимание!!!</b></center>
+			<br>
+			В ближайшее время игра будет перемешена на новый хост.<br>
+			В данный момент адресс еше неизвестен...<br>
+			На сайте <b><u><a
+				href='http://warmess.host4us.org/lce/iv.html' target=_blank><font
+				color=red>Linden City Essentials </font></a> </u></b> будет размешена вся
+			информация о новом адрессе игры(просьба записать или добавить в
+			избранное адресс сайта, чтобы потом незабыть его...)
+			</p>
+			<CENTER><INPUT class=button onclick=hideHelp() type=button
+				value=Закрыть></CENTER>
+			</FORM>
+			</TD>
+		</TR>
+	</TBODY>
+</TABLE>
+</DIV>

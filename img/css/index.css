@@ -1,0 +1,225 @@
+BODY {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 12px;
+	COLOR: #333333;
+	MARGIN: 0px;
+	FONT-STYLE: normal;
+	FONT-FAMILY: Verdana, Arial, Helvetica, Tahoma, sans-serif;
+}
+
+H3 {
+	color: #8f0000;
+	FONT-FAMILY: Arial;
+	FONT-SIZE: 12pt;
+	font-weight: bold;
+	TEXT-ALIGN: center;
+	MARGIN-BOTTOM: 0px;
+	MARGIN-TOP: 0px;
+}
+
+.menu2 {
+	background-color: #40404A;
+	border-color: #ffffff #202020 #202020 #ffffff;
+	border-style: solid;
+	border-width: 1px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	visibility: hidden;
+}
+
+select,textarea,input {
+	border: solid 1pt #B0B0B0;
+	font-family: MS Sans Serif;
+	font-size: 10px;
+	color: #191970;
+	MARGIN-BOTTOM: 2px;
+	MARGIN-TOP: 1px;
+}
+
+.btn {
+	border: 1px double #9a9996;
+	font-size: 10px;
+	color: #dfdfdf;
+	cursor: pointer;
+	background-color: #504F4C;
+}
+
+a.menuItem,a.menuItem:visited {
+	border: 0px solid #000000;
+	color: #CC9966;
+	display: block;
+	font-family: MS Sans Serif, Arial, Tahoma, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	padding: 2px 12px 2px 8px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a.menuItem:hover {
+	background-color: #DEDEDE;
+	color: #CC9966;
+	display: block;
+	font-family: MS Sans Serif, Arial, Tahoma, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	padding: 2px 12px 2px 8px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.small {
+	font-size: 10px;
+	font-weight: normal;
+	font-family: Verdana, Arial, Helvetica, Tahoma, sans-serif;
+}
+
+a.small,a.small:visited,a.small:active,a.small:hover {
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Verdana, Arial, Helvetica, Tahoma, sans-serif;
+}
+
+.alterClass {
+	background-color: #D4C59A;
+	border-color: #5D4D33 #5D4D33 #5D4D33 #5D4D33;
+	border-width: 1px;
+	FONT-SIZE: 8pt;
+	border-style: solid;
+	FONT-FAMILY: Verdana, Arial, Helvetica, Tahoma, sans-serif;
+}
+
+.alterMiniClass {
+	background-color: #D4C59A;
+	border-color: #D4C59A;
+	border-width: 1px;
+	FONT-SIZE: 8pt;
+	border-style: solid;
+	FONT-FAMILY: Verdana, Arial, Helvetica, Tahoma, sans-serif;
+}
+
+.mas {
+	FONT-WEIGHT: normal;
+	font-size: 11px;
+	FONT-FAMILY: Verdana, Arial, Helvetica, Tahoma, sans-serif;
+	COLOR: #FFFFFF;
+	PADDING-TOP: 9px;
+	TEXT-ALIGN: center;
+}
+
+.intable {
+	border-top: #808080 solid 1px;
+	border-left: #808080 solid 1px;
+	border-right: #FFFFFF solid 1px;
+	border-bottom: #FFFFFF solid 1px;
+}
+
+UL {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+	MARGIN: 0px 0px 4px;
+	COLOR: #333333;
+	FONT-STYLE: normal;
+	FONT-FAMILY: Verdana, Arial, Helvetica, Tahoma, sans-serif;
+}
+
+LI {
+	FONT-WEIGHT: normal;
+	MARGIN: 0px 0px 0px 25px
+}
+
+.date {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+	MARGIN: 0px;
+	FONT-STYLE: bold;
+	color: #007000;
+	FONT-FAMILY: Verdana, Arial, Helvetica, Tahoma, sans-serif;
+}
+
+.date2 {
+	font-family: Verdana, Arial, Helvetica, Tahoma, sans-serif;
+	font-size: 10pt;
+	text-decoration: none;
+	font-weight: normal;
+	color: #007000;
+	background-color: #00FFAA
+}
+
+.sysdate {
+	font-family: Verdana, Arial, Helvetica, Tahoma, sans-serif;
+	font-size: 10pt;
+	text-decoration: none;
+	font-weight: normal;
+	color: #B00000
+}
+
+.rteam {
+	FONT-WEIGHT: bold;
+	font-size: 12px;
+	FONT-FAMILY: Verdana, Arial, Helvetica, Tahoma, sans-serif;
+	COLOR: #4B4895;
+}
+
+.lteam {
+	FONT-WEIGHT: bold;
+	font-size: 12px;
+	FONT-FAMILY: Verdana, Arial, Helvetica, Tahoma, sans-serif;
+	COLOR: #995A00;
+}
+
+TD {
+	FONT-WEIGHT: normal;
+	font-size: 10pt;
+	MARGIN: 0px;
+	FONT-STYLE: normal;
+	FONT-FAMILY: Verdana, Arial, Helvetica, Tahoma, sans-serif;
+}
+
+.ft {
+	FONT-WEIGHT: normal;
+	font-size: 10pt;
+	MARGIN: 0px;
+	FONT-STYLE: normal;
+	FONT-FAMILY: Verdana, Arial, Helvetica, Tahoma, sans-serif;
+}
+
+A.menu:link,A:active,A:visited {
+	FONT-WEIGHT: bold;
+	font-size: 12px;
+	FONT-FAMILY: Verdana, Arial, Helvetica, Tahoma, sans-serif;
+	TEXT-DECORATION: none;
+	COLOR: #EFEFEF;
+}
+
+A.menu:hover {
+	COLOR: #ffffff;
+}
+
+.menu {
+	margin: 5px 0px 10px;
+	TEXT-ALIGN: center;
+}
+
+.stable {
+	border-top: #A5A5A5 solid 1px;
+	border-left: #A5A5A5 solid 1px;
+	border-right: #EAEAEA solid 1px;
+	border-bottom: #EAEAEA solid 1px;
+}
+
+IMG {
+	BORDER-TOP-WIDTH: 0px;
+	BORDER-LEFT-WIDTH: 0px;
+	BORDER-BOTTOM-WIDTH: 0px;
+	BORDER-RIGHT-WIDTH: 0px
+}
+
+.ontitle {
+	FONT-WEIGHT: bold;
+	font-size: 12px;
+	FONT-FAMILY: Verdana, Arial, Helvetica, Tahoma, sans-serif;
+	COLOR: #EFEFEF;
+	MARGIN: 0px 0px 7px;
+}

@@ -1,0 +1,121 @@
+BODY {
+	SCROLLBAR-FACE-COLOR: #333333;
+	FONT-SIZE: 11px;
+	SCROLLBAR-HIGHLIGHT-COLOR: #808080;
+	SCROLLBAR-3DLIGHT-COLOR: #000000;
+	SCROLLBAR-ARROW-COLOR: #808080;
+	SCROLLBAR-TRACK-COLOR: #232323;
+	FONT-FAMILY: Tahoma, Verdana;
+	SCROLLBAR-DARKSHADOW-COLOR: #808080;
+	SCROLLBAR-BASE-COLOR: #000000
+}
+
+TABLE {
+	FONT-SIZE: 11px;
+	FONT-FAMILY: Tahoma, Verdana
+}
+
+.input {
+	BORDER-RIGHT: #cccccc 1px solid;
+	BORDER-TOP: #cccccc 1px solid;
+	FONT-SIZE: 11px;
+	BORDER-LEFT: #cccccc 1px solid;
+	COLOR: #cccccc;
+	BORDER-BOTTOM: #cccccc 1px solid;
+	FONT-FAMILY: tahoma;
+	BACKGROUND-COLOR: #333333
+}
+
+.input1 {
+	BORDER-RIGHT: #000000 1px solid;
+	BORDER-TOP: #000000 1px solid;
+	FONT-SIZE: 11px;
+	BORDER-LEFT: #000000 1px solid;
+	COLOR: #000000;
+	BORDER-BOTTOM: #000000 1px solid;
+	FONT-FAMILY: tahoma;
+	BACKGROUND-COLOR: #999999
+}
+
+.input2 {
+	BORDER-RIGHT: #000000 1px solid;
+	BORDER-TOP: #000000 1px solid;
+	FONT-SIZE: xx-small;
+	BACKGROUND-IMAGE: url(../images/input1.gif);
+	BORDER-LEFT: #000000 1px solid;
+	COLOR: #000000;
+	BORDER-BOTTOM: #000000 1px solid;
+	BACKGROUND-COLOR: #cccccc;
+	background-attacmdent: fixed
+}
+
+.btn {
+	FONT-SIZE: xx-small;
+	BACKGROUND-IMAGE: url(../images/input.gif);
+	CURSOR: hand;
+	COLOR: #000000;
+	background-attacmdent: fixed
+}
+
+#alt {
+	VISIBILITY: hidden;
+	POSITION: absolute
+}
+
+.main_borders {
+	BORDER-RIGHT: #000000 1px solid;
+	BORDER-TOP: #000000 1px solid;
+	FONT-SIZE: 10px;
+	BORDER-LEFT: #000000 1px solid;
+	BORDER-BOTTOM: #000000 1px solid;
+	FONT-FAMILY: Verdana
+}
+
+H1 {
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 10pt;
+	PADDING-BOTTOM: 0px;
+	MARGIN: 0px;
+	COLOR: #330000;
+	LINE-HEIGHT: 16px;
+	PADDING-TOP: 0px;
+	FONT-STYLE: normal
+}
+
+A {
+	FONT-WEIGHT: bold;
+	COLOR: #333333;
+	TEXT-DECORATION: none
+}
+
+A:hover {
+	FONT-WEIGHT: bold;
+	COLOR: #666666;
+	TEXT-DECORATION: underline
+}
+
+A.nav {
+	FONT-WEIGHT: bold;
+	COLOR: #ffffff;
+	TEXT-DECORATION: none
+}
+
+A.nav:hover {
+	FONT-WEIGHT: bold;
+	COLOR: #cccccc;
+	TEXT-DECORATION: underline
+}
+
+A.menu {
+	FONT-WEIGHT: normal;
+	COLOR: #000000;
+	TEXT-DECORATION: none
+}
+
+A.menu:hover {
+	FONT-WEIGHT: normal;
+	COLOR: #666666;
+	TEXT-DECORATION: none
+}

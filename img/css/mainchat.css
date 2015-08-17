@@ -1,0 +1,304 @@
+body {
+	scrollbar-face-color: 7F6030;
+	scrollbar-arrow-color: ffffff;
+	scrollbar-3dlight-color: ffffff;
+	scrollbar-highlight-color: ffffff;
+	scrollbar-shadow-color: ffffff;
+	scrollbar-track-color: ffffff;
+}
+
+hr {
+	clear: both;
+	height: 1px;
+	color: #7F6030;
+	background-color: #7F6030;
+	border: 1 solid #7F6030
+}
+
+.login_s {
+	background-color: none;
+	color: #691905;
+	font-family: verdana;
+	font-size: 8pt;
+	font-weight: none;
+	border: 1pt solid #80BAFF;
+}
+
+.button {
+	font: bold 12px arial, helvetica, sans-serif;
+	background-color: #7F6030;
+	color: #ffffff
+}
+
+.table_header {
+	color: #092869;
+	font: bold 12px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-decoration: none
+}
+
+.table_header2 {
+	color: #B30101;
+	font: bold 12px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-decoration: none
+}
+
+.table_data {
+	color: #092869;
+	font: bold 10px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-decoration: none
+}
+
+.error {
+	color: #B30101;
+	font: bold italic 11px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-decoration: none
+}
+
+.header {
+	font: bold 16px Verdana, Arial, Geneva, Helvetica, sans-serif;
+	color: #276482
+}
+
+.tableborder {
+	border: 1px solid #7F6030
+}
+
+.top_str {
+	color: #000000;
+	font: bold 14px Verdana, Tahoma, Arial, Geneva, Helvetica, sans-serif;
+	text-decoration: none
+}
+
+.top_menu {
+	color: #000000;
+	font: bold 10px Verdana, Arial, Tahoma, Geneva, Helvetica, sans-serif;
+	text-decoration: none
+}
+
+.navy {
+	font: bold 10px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #00497E;
+	text-decoration: none
+}
+
+.navy:hover {
+	text-decoration: underline
+}
+
+.activeNavy {
+	font: bold 10px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #B30101
+}
+
+a {
+	font: 12px bold Verdana, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	color: #554718;
+	text-decoration: none
+}
+
+a:hover {
+	color: #B30101
+}
+
+.link {
+	font: 12px Verdana, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-decoration: none
+}
+
+.link:hover {
+	color: #B30101
+}
+
+.alink {
+	font: bold 12px Verdana, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	color: #7EA1BB;
+	text-decoration: none
+}
+
+.bottom {
+	font: 12px Verdana, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-decoration: none
+}
+
+.sender {
+	font: bold 12px Verdana, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	color: #000099;
+	text-decoration: none
+}
+
+.status {
+	font: 12px Verdana, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	text-decoration: none
+}
+
+.r_menu {
+	font: bold Verdana, 12px Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	color: #828206;
+	text-decoration: none
+}
+
+.r_menu:hover {
+	color: #00518D
+}
+
+.login_text {
+	font: bold 12px Verdana, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	text-decoration: none
+}
+
+.login_text:hover {
+	color: #E2E237
+}
+
+.login_submit {
+	font: bold 12px Verdana, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	color: #E2E237;
+	text-decoration: none
+}
+
+.item_text {
+	font: 12px Verdana, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	color: #0668B0;
+	text-decoration: none
+}
+
+.item_remark {
+	font: 12px Verdana, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	color: #aaaaaa;
+	text-decoration: none
+}
+
+.news_title {
+	font: bold 12px Verdana, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	color: #828206;
+	text-decoration: none
+}
+
+.news_title:hover {
+	color: #00518D
+}
+
+.cat_name {
+	font: bold 12px Verdana, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-decoration: none
+}
+
+.CmsHeader {
+	font: bold 12px Verdana, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-decoration: none
+}
+
+.marriage {
+	font: bold 12px Verdana, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	color: #aa0000;
+	text-decoration: none
+}
+
+.CmsMainText {
+	font: 12px Verdana, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-decoration: none
+}
+
+.CmsMainHeader {
+	font: bold 14px Verdana, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	color: #654D27;
+	text-decoration: none
+}
+
+.big_red {
+	font: bold 14px Verdana, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	color: #B30101;
+	text-decoration: none
+}
+
+.FAQBigLetter {
+	font: bold 24px Times, Verdana, Tahoma, Geneva, Arial, Helvetica,
+		sans-serif;
+	color: #276482;
+	text-decoration: none
+}
+
+.prv {
+	font: bold 12px Verdana, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	color: #dd0000;
+	text-decoration: none;
+	background-color: #FAE0E0
+}
+
+.user_status {
+	font: bold italic 10px Verdana, Tahoma, Geneva, Arial, Helvetica,
+		sans-serif;
+	color: #0000dd;
+	text-decoration: none
+}
+
+.mini {
+	font: 9px Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #555555;
+	text-decoration: none;
+	background-color: #FAE0E0;
+	width: 95%;
+	padding: 2px 2px 2px 5px
+}
+
+.game_link {
+	font: 12px Verdana, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	color: #0000ff;
+	text-decoration: none
+}
+
+.krit {
+	font: bold 12px Verdana, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	color: #B30101;
+	text-decoration: none
+}
+
+.udar {
+	font: bold 12px Verdana, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	color: #0000ff;
+	text-decoration: none
+}
+
+.red {
+	color: red
+}
+
+.command_1 {
+	font: bold 12px Verdana, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	color: #2400FF;
+	text-decoration: none
+}
+
+.command_2 {
+	font: bold 12px Verdana, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	color: #B77000;
+	text-decoration: none
+}
+
+.gr_bg {
+	background: #55CF0A
+}
+
+.gr_bg1 {
+	background: #FF7676
+}
+
+#dhtmltooltip2 {
+	position: absolute;
+	border: 1px solid black;
+	padding: 2px;
+	background-color: lightyellow;
+	visibility: hidden;
+	z-index: 100;
+	font: 10px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	/*Remove below line to remove shadow. Below line should always appear last within this CSS*/
+	filter: progid : DXImageTransform.Microsoft.Shadow ( color = gray,
+		direction = 135 );
+}

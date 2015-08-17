@@ -1,0 +1,21 @@
+A:link,A:visited,A:active {
+	FONT-SIZE: 8pt;
+	FONT-WEIGHT: bold;
+	COLOR: #2C3D5E;
+	TEXT-DECORATION: none;
+}
+
+A:hover {
+	FONT-SIZE: 8pt;
+	COLOR: #C288BE;
+}
+
+A.ch {
+	color: #000000;
+	font-weight: bold;
+}
+
+.ch {
+	color: #000000;
+	font-weight: bold;
+}
