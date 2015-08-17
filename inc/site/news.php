@@ -1,7 +1,7 @@
 
 <?
 
-include('inc/db_connect.php');
+include('../../inc/db_connect.php');
 
 // Разбиваем на страницы
 $np=5; // Число новостей на странице

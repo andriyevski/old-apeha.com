@@ -1,0 +1,42 @@
+body{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    float: left;
+}
+.all_site{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    float: left;
+}
+.top{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    float: left;
+    height: 330px;
+    width: 100%;
+    border: 1px solid blue;
+}
+.left_side{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    float:left;
+    border: 3px solid black;
+    width: 190px;
+    height: 330px;
+}
+.center{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    float:left;
+    border: 3px solid black;
+    width: 640px;
+    height: 330px;
+}
+.right_side{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    float:left;
+    border: 3px solid black;
+    height: 330px;
+
+}

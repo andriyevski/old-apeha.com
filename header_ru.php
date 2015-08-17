@@ -21,7 +21,7 @@
 		<li><a href="../main.php?set=map" target="main" onmouseover="chim('m1','1')" onmouseout="chim('m1','0')">Локация</a> </li>
 		<li><a href="../main.php?set=work" target="main" onmouseover="chim('m6','11')" onmouseout="chim('m6','10')">Зароботок</a></li>
 		<li><a href="../battle.php?battle_type=1" target="main" onmouseover="chim('m3','5')" onmouseout="chim('m3','4')">Бой</a></li>
-		<li><a href="../index.php" target="_blank">Новости</a> </li>
+		<li><a href="../inc/site/news.php" target="_blank">Новости</a> </li>
 		<li><a href="#">Законы</a> </li>
 		<li><a href="faq.php" target="_blank" onmouseover="chim('m3','5')" onmouseout="chim('m3','4')">Библиотека</a> </li>
 		<li><a href="http://old-apeha.ru/forum" target="_blank" onmouseover="chim('m5','9')" onmouseout="chim('m5','8')">Форум</a> </li>
