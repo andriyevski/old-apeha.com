@@ -40,20 +40,15 @@ function setCookie (name, value, expires, path, domain, secure) {
 </head>
 <body>
 <div class="all_site">
-    <div class="top">
-    <div class="left_side">
-        LOL
-    </div>
-    <div class="center"> lol2sadsadsadasdadsadada
-        <?
-       // include_once('inc/site/news.php');
-        ?>
-    </div>
-    <div class="right_side">
-        right side right side
+    <div class="header">Header</div>
+    <div class="left_footer">
+    <div id="name_block">
+        <div id="name_block_info"<b>Здравствуйте<br>Админ</b></div>
     </div>
     </div>
-    <div class="bottom"></div>
+    <div class="center">center content</div>
+    <div class="right_footer">right footer</div>
+    <div class="footer">footer</div>
 </div>
 </body>
 
