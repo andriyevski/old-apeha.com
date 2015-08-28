@@ -27,11 +27,10 @@ if (is_numeric($p)) {
 			$id=$data["id"];
 			$avt = mysql_fetch_array(mysql_query("select * from players where user='".$avtor."'"));
 			echo"
-<div align='center'>
-<table width=100% bordercolor=4f3908>
+
 <tr><td style='padding:3px;'>
-<div class='eTitle' style='text-align:left;'>$tema</div>
-<div class='eMessage' style='text-align:left;clear:both;padding-top:2px;padding-bottom:2px;'>$text</div>
+<div class='eTitle' style='text-align:left;margin: 10px 0 0px 11px;'>$tema</div>
+<div class='eMessage' style='text-align:left;clear:both;padding-top:2px;padding-bottom:2px;margin-left: 11px;'>$text</div>
 <div class='eDetails' style='clear:both;'>Добавил: <b><a href='inf.php?login=$avtor' target='_blank'>$avtor</a></b> | Дата: <b>$date</b></div>
 </td></tr></table><br>";
 		}

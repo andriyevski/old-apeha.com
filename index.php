@@ -23,6 +23,8 @@ else {die();}
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+
+    <meta charset="utf-8">
     <link href="css/site_index.css" rel="stylesheet">
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
 <meta name="description" content="Old-apeha.com">
@@ -36,19 +38,105 @@ function setCookie (name, value, expires, path, domain, secure) {
         ((secure) ? "; secure" : "");
 }
 
+function getCookie(name) {
+    var cookie = " " + document.cookie;
+    var search = " " + name + "=";
+    var setStr = null;
+    var offset = 0;
+    var end = 0;
+    if (cookie.length > 0) {
+        offset = cookie.indexOf(search);
+        if (offset != -1) {
+            offset += search.length;
+            end = cookie.indexOf(";", offset)
+            if (end == -1) {
+                end = cookie.length;
+            }
+            setStr = unescape(cookie.substring(offset, end));
+        }
+    }
+    return(setStr);
+}
+
 </script>
 </head>
 <body>
-<div class="all_site">
-    <div class="header">Header</div>
-    <div class="left_footer">
-    <div id="name_block">
-        <div id="name_block_info"<b>Здравствуйте<br>Админ</b></div>
+<div class="site">
+    <div class="header">
+        <H>Old-apeha.ru</H>
     </div>
+    <div class="header_botom_fon">
+        <div class="forms">
+        <FORM method=post action=enter.php>
+
+            <TABLE align="center">
+
+                <TBODY>
+
+                <TR style="HEIGHT: 14px">
+
+                    <TD></TD>
+
+                    <TD></TD>
+                </TR>
+
+                <TR>
+
+                    <TD><INPUT  name=user style="background-color: #000; color: #fff; border: none;"></TD>
+
+                    <TD><INPUT  type=password style="background-color: #000; color: #fff;border: none;" name=pass></TD>
+
+                    <TD><INPUT  type=submit style="background-color: #000; color: #fff;border: none;" name=go value="Войти в игру"></TD>
+
+                    <TD></TD>
+                </TR>
+                </TBODY>
+            </TABLE>
+        </FORM></div>
     </div>
-    <div class="center">center content</div>
-    <div class="right_footer">right footer</div>
-    <div class="footer">footer</div>
+    <div class="center">
+            <div class="left_footer">
+                 <div id="name_block">
+                        <div id="name_block_info"<b style="font-size: larger;
+    color: #7f4f03;">Здравствуйте<br>Гость</b><br><a href="register.php">Регистрация</a></div>
+                 </div>
+        <div class="bottom">
+            <div class="bottom_ul">
+                <div class="knopka"><a href="#" style="text-decoration: none;
+    font-size: medium;
+    color: #815105;">Войти в игру</a></div>
+                </div>
+
+            <div class="bottom_ul2">
+                <div class="knopka"><a href="#" style="text-decoration: none;
+    font-size: medium;
+    color: #815105;">Выйти из игры</a></div>
+            </div>
+        </div>
+            </div>
+
+        <div class="content">
+            <div class="news_header">
+                <h>Новости</h>
+            </div>
+            <div class="news_content">
+
+            <? include_once('inc_news.php') ?>
+
+            </div>
+            <div class="news_footer"></div>
+            </div>
+
+         <div class="right_footer">
+             <br><A href="index.php?type=exp">Таблица опыта</A>
+         </div>
+
+    </div>
+    <div class="footer"><p style="
+align-content: center;
+margin: 9px 0 0 0;
+font-size: large;
+">Все права защищены © 2015 Old-apeha.com</p></div>
 </div>
 </body>
 

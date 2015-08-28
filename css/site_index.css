@@ -1,50 +1,68 @@
 *{
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
-}
-html{
-    height: 100%;
-    text-align:center;
-    text-align:center;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-}
-body{
+    text-align: center; /* выравниваем все содержимое body по центру */
 
-    text-align:center;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-    float: left;
-    width: 100%;
+}
+html,body{
     height: 100%;
-    text-align:center;
-}
-main{
-    position: relative; /* боковая колонка перемещается в рамках основного содержания */
-    margin: 0 auto; /* сайт располагается по центру экрана */
-    max-width: 1200px; /* резиновая, растягивается до значения в 1200px */
-    padding-right: 310px; /* = боковая колонка + отступ в 10px */
-}
-.all_site{
-    background-color: #24707c;
-    text-align:left;
-    min-width:800px;
-    max-width: 100%;
-    margin:0 auto;
-    padding: 0 auto;
-    text-align:center;
-}
-.header{
-    background-color: #EBEDEC;
-    float: left;
     width: 100%;
+    text-align:center;
+    background-color: #F7E0A1;
+
 }
+
+/*Весь сайт целиком!*/
+.site{
+    margin: 0 auto;
+    width: 1280px;
+}
+/*Шапка*/
+.header{
+    background-image: url("../img/site/header.png");
+    width: 1280px;
+    float: left;
+    height: 190px;
+
+}
+.header h{
+    font-family: Arial, Verdana, Helvetica;
+    font-size: xx-large;
+    color: #7f4f03;
+}
+/*Блок с фоном ниже хедера*/
+.header_botom_fon{
+    background: url("../img/site/head_bottom_line.png") repeat-x;
+    /*background-image: url("../img/site/head_bottom_line.png");*/
+    /*background-repeat: repeat-x;*/
+    float: left;
+    width: 1280px;
+    height: 38px;
+
+}
+.forms{
+    margin: 0 auto;
+    /* height: 100%; */
+    height: 27px;
+    width: 371px;
+    /* border: 1px solid red; */
+    /* margin-top: 1px; */
+}
+/*3 блока в одном- центр*/
+.center{
+    width: 1280px;
+    float: left;
+    margin: 3px 0 0 0;
+}
+/*Левая часть шапки*/
 .left_footer{
     background-color: #e3bc6c;
-    float: left;
     height: 300px;
     width: 190px;
+    float: left;
+    border-radius: 18px 0 0 0;
 }
+/*В левой части блок с приветствием*/
 #name_block{
     float: left;
     background-image: url("../img/site/Name_fon.png");
@@ -62,20 +80,103 @@ margin: 20px 0 0 0;
     font-size: 14px;
     font-family: Verdana, Arial, Helvetica, sans-serif;
 }
-.center{
+.bottom{
+    float: left;
+    height: 75px;
+    width: 170px;
+    /*background: url("../img/site/bottom_fon.png") repeat-x;*/
+    border: 1px solid #a17431;
+    border-top: 2px solid #a17431;
+    margin: 0 0 0 9px;
+}
+.bottom_ul{
+    list-style: none;
+    width: 170px;
+    height: 38px;
+    background: url("../img/site/bottom_fon_div.png") repeat-x;
+    border-bottom: 1px solid #a07437;
+}
+.knopka{
+   border: 1px solid #7f4f03;
+    width:128px;
+    height: 21px;
+    background: url("../img/site/knopka_1.png");
+    margin: 7px 0 0 20px;
+    float: left;
+    border-radius:2px 2px 2px 2px;
+}
+.bottom_ul2 {
+    list-style: none;
+    width: 170px;
+    height: 38px;
+    background: url("../img/site/bottom_fon_div.png") repeat-x;
+}
+/*.li1{*/
+    /*text-decoration: none;*/
+    /*font-size: larger;*/
+    /*color: #815105;*/
+    /*border: 1px solid #9f7336;*/
+    /*margin: 5px 0 0 0;*/
+/*}*/
+
+   /*text-decoration: none;*/
+    /*font-size: larger;*/
+    /*color: #815105;*/
+    /*border: 1px solid #9f7336;*/
+    /*background: url("../img/site/bottom_fon.png") repeat-x;*/
+
+/*Центральный блок сайта*/
+.content {
+    background-color: #f1dda5;
+    width: 885px;
+    height: 300px;
+    float: left;
+    margin: 0 0 0 15px;
+}
+.news_header{
+    min-width: 867px;
+     float: left;
+    height: 35px;
+    background-color: rgba(88, 42, 16, 0.79);
+    margin: 5px 0px 0px 0px;
+    border-radius: 91px 91px 0px 0px;
+}
+.news_header h{
+    float: left;
+    margin-left: 87px;
+    margin-top: 6px;
+    font-size: larger;
+    color: bisque;
+}
+.news_content{
+    width: 98%;
+    background-color: #8C6240;
+    /* min-width: 20%; */
+    margin: 0 auto;
     float: left;
 
-    max-width: 100%;
 }
+.news_footer{
+    min-width: 867px;
+    float: left;
+    height: 35px;
+    background-color: rgba(88, 42, 16, 0.79);
+    border-radius: 0px 0px 91px 91px;
+}
+/*Правый блок сайта*/
 .right_footer{
     background-color: #e3bc6c;
-    float: right;
+    float: left;
     height: 300px;
     width: 190px;
 }
+/*Подвал*/
 .footer{
-    background-color: #2400FF;
+    background: url("../img/site/head_bottom_line.png") repeat-x;
+    /*background-image: url("../img/site/head_bottom_line.png");*/
+    /*background-repeat: repeat-x;*/
     float: left;
-    width: 100%;
+    width: 1280px;
+    height: 38px;
 }
 

@@ -137,7 +137,7 @@ if (@$register) {
 if ($page!="end") {
 
 
-	$title='Инстинкты воина';
+	$title='Old-apeha.com';
 	include('inc/html_header.php');
 	echo"<body bgcolor=EBEDEC>";
 
@@ -145,7 +145,7 @@ if ($page!="end") {
 
 	echo"<table width=790 border=1 bordercolor=CCCCCC cellspacing=0 cellpadding=3>
 <tr>
-<td align=center><b style='COLOR: Green'>Инстинкты воина - [Регистрация]</b></td>
+<td align=center><b style='COLOR: Green'>Old-apeha.com - [Регистрация]</b></td>
 </tr>
 </table><br>
 <script language=JavaScript src='inc/reg.js'></script>
@@ -388,7 +388,7 @@ if ($page!="end") {
 
 
 <tr>
-<td colspan=4 align=center><br><input type=hidden name=law value=0><input type=checkbox name=law value=1"; if ($law == 1) echo " checked"; echo"> Я обязываюсь придерживаться <a href='law.php' target=_blank>законов</a> «Инстинктов воина»
+<td colspan=4 align=center><br><input type=hidden name=law value=0><input type=checkbox name=law value=1"; if ($law == 1) echo " checked"; echo"> Я обязываюсь придерживаться <a href='law.php' target=_blank>законов</a> «Old-apeha.com»
 <br><br></td>
 </tr>
 

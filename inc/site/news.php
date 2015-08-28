@@ -31,10 +31,10 @@ if (is_numeric($p)) {
 <div align='center'>
 <table width=95% border=0 cellspacing=5 cellpadding=5  bordercolor=4f3908>
 <tr><td style='padding:3px;'>
-<div class='eTitle' background='i/bg.gif' style='text-align:left; text-decoration: underline;'><strong>$tema</strong></div>
-<div class='eMessage' background='i/bg3.gif' style='text-align:left;clear:both;padding-top:2px;padding-bottom:2px;'>$text</div>
-<div class='eDetails' align=left background='i/bg.gif' style='clear:both;'>Добавил: <b><a href='inf.php?login=$avtor' target='_blank'>$avtor</a></b> | Дата: <b>$date</b></div>
+<div class='eTitle' background='i/bg.gif' style='text-align:left; text-decoration: underline;    color: bisque;'><strong>$tema</strong></div>
+<div class='eMessage' background='i/bg3.gif' style='text-align:left;clear:both;padding-top:2px;padding-bottom:2px;    color: bisque;'>$text</div>
+<div class='eDetails' align=left background='i/bg.gif' style='clear:both;    color: bisque;'>Добавил: <b><a href='inf.php?login=$avtor' target='_blank'>$avtor</a></b> | Дата: <b>$date</b></div>
 </td></tr></table><br>";
 		}
-		if (!empty($pages)) echo "<div align='center'>Страницы: ".$pages."</div><br><br><br>";
+		if (!empty($pages)) echo "<div align='center' style='    color: bisque;'>Страницы: ".$pages."</div><br><br><br>";
 ?>

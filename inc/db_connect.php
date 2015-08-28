@@ -2,7 +2,7 @@
 session_start();
 $kkk=(string) 'gvhgxssds$$3efE##rfezfeA#6$Z65a565^$5sz5rdfyu';
 //ini_set('display_errors',0);
-$img_server="http://langels.ru";
+$img_server="http://old-apeha.com";
 if(!empty($_SESSION)){foreach($_SESSION as $k=>$v) if (!ereg("[<>\\/-]",$v)){$$k=$v;}
 ;}
 
