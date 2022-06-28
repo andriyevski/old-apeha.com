@@ -1,9 +1,9 @@
-# old-apeha.ru
+# old-apeha.ru ( old browser game )
 - Автор: Андриевский Сергей
 - Название: old-apeha.com
 - Версия: v 1.0a
 - Финансирование: Сделано по заказу
---
+---
 Главное в релизе:
  - Engine old-apeha.com: v 1.0a
  - Design version: v 0.1a
